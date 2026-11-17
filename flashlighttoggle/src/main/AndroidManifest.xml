@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="Flashlight Toggle"
+        android:icon="@mipmap/ic_launcher">
+
+        <activity
+            android:name=".ToggleFlashlightActivity"
+            android:exported="true"
+            android:showWhenLocked="true"
+            android:showForAllUsers="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/ToggleTheme"/>
+    </application>
+</manifest>

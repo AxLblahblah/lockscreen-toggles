@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+
+    <application
+        android:label="DND Toggle"
+        android:icon="@mipmap/ic_launcher">
+
+        <activity
+            android:name=".ToggleDndActivity"
+            android:exported="true"
+            android:showWhenLocked="true"
+            android:showForAllUsers="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/ToggleTheme"/>
+    </application>
+</manifest>

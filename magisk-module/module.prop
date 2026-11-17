@@ -1,0 +1,6 @@
+id=lockscreen_toggles
+name=Lockscreen DND + Flashlight Toggles
+version=v1.0
+versionCode=1
+author=AxLblahblah
+description=Replaces the AOSP 12 keyguard affordances: left = DND toggle, right = flashlight toggle. Uses the sysui_keyguard tuner settings plus two helper activities.
