@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Material You dark: primary container = tone 30, on-container = tone 90. -->
 <resources>
-    <color name="circle_bg">#FFF1F3F4</color>
-    <color name="glyph">#FF202124</color>
+    <color name="circle_bg">@android:color/system_accent1_700</color>
+    <color name="glyph">@android:color/system_accent1_100</color>
 </resources>

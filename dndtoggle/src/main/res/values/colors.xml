@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Material You light: primary container = tone 90, on-container = tone 10.
+     These framework colors are generated at runtime from the wallpaper (Monet). -->
 <resources>
-    <color name="circle_bg">#FF202124</color>
-    <color name="glyph">#FFFFFFFF</color>
+    <color name="circle_bg">@android:color/system_accent1_100</color>
+    <color name="glyph">@android:color/system_accent1_900</color>
 </resources>
