@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Overrides SystemUI's @font/clock, the font family used by the AOSP 12
+  lockscreen/AOD clock (AnimatableClockView in keyguard_clock_switch.xml).
+  The stock AOSP resource resolves to the system monospace typeface.
+  To change the font: replace clock_file.otf in this res/font/ directory.
+-->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/clock_file"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+</font-family>

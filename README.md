@@ -6,6 +6,10 @@ Two modes for the Android 12 (Go Edition) AOSP lockscreen shortcut buttons:
   SystemUI's `config_keyguardShowLeftAffordance` / `config_keyguardShowCameraAffordance`
   booleans back to `false`, removing the bottom-left (dialer) and bottom-right (camera)
   buttons.
+- **Lockscreen clock font.** A second RRO overrides SystemUI's `@font/clock`
+  (the AOSP 12 lockscreen/AOD clock font family) with the TTF/OTF embedded in the
+  overlay APK. To change the font, replace
+  `clockfont-overlay/src/main/res/font/clock_file.otf` and rebuild.
 - **Optional mode — replace them with toggles.** Uncomment the four `settings put` lines
   in `magisk-module/service.sh` (and drop the overlay APK) to make the left button a
   **DND toggle** and the right a **flashlight toggle**.
@@ -25,6 +29,7 @@ included overlay outranks them (`isStatic` + `priority=10`).
 This repo contains:
 
 - `systemui-overlay/` — RRO that hides the keyguard shortcut buttons
+- `clockfont-overlay/` — RRO that swaps the lockscreen clock font
 - `dndtoggle/` — tiny transparent app whose activity toggles DND and finishes
 - `flashlighttoggle/` — tiny transparent app whose activity toggles the torch and finishes
 - `magisk-module/` — Magisk module that installs the overlay + both APKs and applies the
