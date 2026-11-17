@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hides the AOSP 12 keyguard affordance buttons (bottom-left dialer / bottom-right camera).
+     Stock AOSP already defaults these to false; ROM device overlays set them true, so this
+     overlay must win: static + priority 10. Bump priority if the ROM's overlay outranks it. -->
+<resources>
+    <bool name="config_keyguardShowLeftAffordance" translatable="false">false</bool>
+    <bool name="config_keyguardShowCameraAffordance" translatable="false">false</bool>
+</resources>

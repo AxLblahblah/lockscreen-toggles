@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.locktoggles.systemuioverlay'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.locktoggles.systemuioverlay"
+        minSdk 31
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
