@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 rootProject.name = "lockscreen-toggles"
 include ':dndtoggle'
 include ':flashlighttoggle'
+include ':systemui-overlay'
