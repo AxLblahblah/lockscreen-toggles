@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shrinks the 24dp glyph into the adaptive icon safe zone (108dp canvas, 66dp safe circle). -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_glyph"
+    android:insetLeft="34dp"
+    android:insetTop="34dp"
+    android:insetRight="34dp"
+    android:insetBottom="34dp"/>
